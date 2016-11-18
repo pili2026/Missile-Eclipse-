@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="kissmedia.android.edit" x="1707" y="86">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="login.submit1.user"
+            endpointName="userdata" kind="Simple"/>
+        <Communication destinationClassName="login.submit1.user"/>
+    </Class>
+    <Class name="kissmedia.android.register.registThread" x="1983" y="-15">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="login.submit1.regFromServer"/>
+    </Class>
+    <Class name="login.submit1.Alive" x="366" y="970">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="kissmedia.android.receivelist.chfile" x="1061" y="-167">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="login.submit1.retrieve"/>
+        <Communication destinationClassName="kissmedia.android.receivelist"/>
+    </Class>
+    <Class name="login.submit1.submit" x="1400" y="916">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="login.submit1.Logout" x="77" y="855">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="kissmedia.android.receivelist" x="890" y="67">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="login.submit1.user"
+            endpointName="user" kind="Simple"/>
+        <Association destinationClassName="login.submit1.locupdate"
+            endpointName="locup" kind="Simple"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="login.submit1.retrieve"/>
+        <Communication destinationClassName="login.submit1.user"/>
+    </Class>
+    <Class name="kissmedia.android.writepage" x="1344" y="80">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="kissmedia.android.VideoTrimmer"
+            endpointName="trimmer" kind="Simple"/>
+        <Association destinationClassName="login.submit1.submit"
+            endpointName="Submit" kind="Simple"/>
+        <Association destinationClassName="login.submit1.locupdate"
+            endpointName="locup" kind="Simple"/>
+        <Association destinationClassName="login.submit1.retrieve"
+            endpointName="retreive" kind="Simple"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="login.submit1.retrieve"/>
+        <Communication destinationClassName="login.submit1.submit"/>
+    </Class>
+    <Class name="kissmedia.android.writepage.SendandAttach" x="1331" y="-74">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="login.submit1.retrieve"/>
+        <Communication destinationClassName="login.submit1.submit"/>
+        <Communication destinationClassName="kissmedia.android.writepage"/>
+    </Class>
+    <Class name="kissmedia.android.Notification.upfile" x="434" y="-108">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="login.submit1.retrieve"/>
+        <Communication destinationClassName="kissmedia.android.Notification"/>
+        <Communication destinationClassName="login.submit1.submit"/>
+    </Class>
+    <Class name="kissmedia.android.VideoTrimmer" x="1494" y="-32">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="login.submit1.locupdate" x="437" y="856">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="login.submit1.Login"
+            endpointName="login" kind="Simple"/>
+        <Association destinationClassName="login.submit1.Alive"
+            endpointName="alive" kind="Simple"/>
+        <Communication destinationClassName="login.submit1.Login"/>
+        <Communication destinationClassName="login.submit1.Alive"/>
+    </Class>
+    <Class name="login.submit1.user" x="1207" y="934">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="kissmedia.android.edit.edit_profile" x="1814" y="14">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="kissmedia.android.receivelist.retrieveAgain" x="1063" y="-18">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="login.submit1.retrieve"
+            endpointName="retrieve" kind="Simple"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="login.submit1.retrieve"/>
+        <Communication destinationClassName="kissmedia.android.receivelist"/>
+    </Class>
+    <Class name="kissmedia.android.receivelist.startretrieve" x="1169" y="-122">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="login.submit1.retrieve"
+            endpointName="retrieve" kind="Simple"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="login.submit1.retrieve"/>
+        <Communication destinationClassName="kissmedia.android.receivelist"/>
+    </Class>
+    <Class name="kissmedia.android.logininput" x="24" y="-4">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="login.submit1.Logout"
+            endpointName="logout" kind="Simple"/>
+        <Association destinationClassName="login.submit1.locupdate"
+            endpointName="locup" kind="Simple"/>
+        <Association destinationClassName="login.submit1.retrieve"
+            endpointName="retreive" kind="Simple"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="login.submit1.retrieve"/>
+        <Communication destinationClassName="login.submit1.user"/>
+        <Communication destinationClassName="login.submit1.Logout"/>
+    </Class>
+    <Class name="kissmedia.android.edit.getuser" x="1716" y="16">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="login.submit1.user"/>
+    </Class>
+    <Class name="kissmedia.android.Notification" x="432" y="-6">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="login.submit1.submit"
+            endpointName="Submit" kind="Simple"/>
+        <Association destinationClassName="login.submit1.locupdate"
+            endpointName="locup" kind="Simple"/>
+        <Association destinationClassName="login.submit1.retrieve"
+            endpointName="retreive" kind="Simple"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="login.submit1.retrieve"/>
+        <Communication destinationClassName="login.submit1.submit"/>
+    </Class>
+    <Class name="login.submit1.regFromServer" x="2006" y="913">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="kissmedia.android.receivelist.send_d2d" x="891" y="-104">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="login.submit1.user"/>
+        <Communication destinationClassName="kissmedia.android.receivelist"/>
+    </Class>
+    <Class name="kissmedia.android.receivelist.request" x="1061" y="-98">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="login.submit1.retrieve"/>
+        <Communication destinationClassName="kissmedia.android.receivelist"/>
+    </Class>
+    <Class name="login.submit1.retrieve" x="886" y="914">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="kissmedia.android.logininput.reload" x="28" y="-194">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="kissmedia.android.logininput"/>
+    </Class>
+    <Class name="login.submit1.Login" x="654" y="984">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="kissmedia.android.VideoTrimmingService" x="1514" y="-129">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="kissmedia.android.VideoTrimmer"
+            endpointName="trimmer" kind="Simple"/>
+        <Communication destinationClassName="kissmedia.android.VideoTrimmer"/>
+    </Class>
+    <Class name="kissmedia.android.logininput.ConnectHttp" x="26" y="-114">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="login.submit1.locupdate"/>
+        <Communication destinationClassName="kissmedia.android.logininput"/>
+    </Class>
+    <Class name="kissmedia.android.register" x="1980" y="83">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="login.submit1.regFromServer"
+            endpointName="regist" kind="Simple"/>
+        <Communication destinationClassName="login.submit1.regFromServer"/>
+    </Class>
+</ClassDiagram>
